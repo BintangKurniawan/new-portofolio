@@ -37,9 +37,9 @@ const Education = () => {
             type="Student in Computer Science"
             time="2021-2024"
             place="SMKN 4 Bandung"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-            Intelligence. Relevant courses included Databases, Algorithms, Web Development, and Android Development."
+            info="Relevant courses included Data Structures, Algorithms, and Computer Systems Engineering. Relevant courses included Databases, Algorithms, Web Development, and Android Development."
           />
+          <Details type="Student in Computer Science" time="2024-noe" place="Universitas Pendidikan Indonesia" info="Relevant courses included  Algorithms and Computer Systems Engineering." />
         </ul>
       </div>
     </div>
