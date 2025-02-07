@@ -8,6 +8,7 @@ import React from "react";
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
 import buruaka from "../../public/images/projects/buruaka.png";
 import travnorth from "../../public/images/projects/travel-notrh.png";
+import cv from "../../public/images/projects/cv.png";
 import wgsleave from "../../public/images/projects/wgs leave.jpeg";
 import hoyo from "../../public/images/projects/hoyo.png";
 import werton from "../../public/images/projects/werton.png";
@@ -130,6 +131,16 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               {" "}
               <Project title="Space Portal Landing Page (Static)" link="https://wbspace.netlify.app/" type="Project" img={wbspace} github="https://github.com/BintangKurniawan/testing-for-mobile" />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Website based CV"
+                summary="A website based on CV. Builded with HTML and CSS. The source design is stated in the link."
+                link="https://bintangk-cv.netlify.app/"
+                type="Featured Project"
+                img={cv}
+                github="https://github.com/BintangKurniawan/cv-web"
+              />
             </div>
           </div>
         </Layout>
