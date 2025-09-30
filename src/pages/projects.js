@@ -13,6 +13,8 @@ import wgsleave from "../../public/images/projects/wgs leave.jpeg";
 import hoyo from "../../public/images/projects/hoyo.png";
 import werton from "../../public/images/projects/werton.png";
 import wbspace from "../../public/images/projects/wbspace.png";
+import mabim from "../../public/images/projects/mabim.png";
+import himarpl from "../../public/images/projects/himarpl.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -96,42 +98,43 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Leave Management System"
-                summary="A website that build for managing your employee leave. Builded with Quasar Framework and Tailwind CSS. Currently, the website is unaccessible, and also it's only frontend, not included backend. 
+                title="MABIM RPL 2025"
+                summary="A website that build for MABIM RPL 2025. Builded with Next.js and Tailwind CSS. 
                 "
-                link="https://github.com/BintangKurniawan/pengelola-cuti-karyawan"
+                link="https://mabim.himarpl.org/"
                 type="Featured Project"
-                img={wgsleave}
-                github="https://github.com/BintangKurniawan/pengelola-cuti-karyawan"
+                img={mabim}
+                github="https://github.com/himarplupi/mabim-himarpl-2025"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
+              <Project title="Leave Management System" link="https://github.com/BintangKurniawan/pengelola-cuti-karyawan" type="Project" img={wgsleave} github="https://github.com/BintangKurniawan/pengelola-cuti-karyawan" />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              {" "}
               <Project title="Blue Archive Student Data" link="https://buruaka-data.netlify.app/" type="Project" img={buruaka} github="https://github.com/BintangKurniawan/Blue-Archive-Student-Data" />
+            </div>
+
+            <div className="col-span-12">
+              <FeaturedProject
+                title="HIMARPL Kabinet Devoria"
+                summary="A cabinet landing page for HIMARPL. Builded with React.js and Tailwind CSS."
+                link="https://himarpl.org"
+                type="Featured Project"
+                img={himarpl}
+                github="https://github.com/himarplupi/devoria-himarpl"
+              />
+            </div>
+
+            <div className="col-span-6 sm:col-span-12">
+              {" "}
+              <Project title="Travel Agency Landing Page" link="https://trav-nort.netlify.app/" type="Project" img={travnorth} github="https://github.com/BintangKurniawan/trav-norrt" />
             </div>
             <div className="col-span-6 sm:col-span-12">
               {" "}
               <Project title="Hoyoverse Website Fanmade" link="https://hoyoverse-fanmade.netlify.app/" type="Project" img={hoyo} github="https://github.com/BintangKurniawan/hoyoverse" />
             </div>
 
-            <div className="col-span-12">
-              <FeaturedProject
-                title="Travel Agency Landing Page"
-                summary="A travel agency landing page builded with HTML and CSS. The website is static, and it's only frontend. The design is not from me. Please checkout later, I'll search again the source design.
-                "
-                link="https://trav-nort.netlify.app/"
-                type="Featured Project"
-                img={travnorth}
-                github="https://github.com/BintangKurniawan/trav-norrt"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              {" "}
-              <Project title="Travel Agency Landing Page (Static)" link="https://weruton-12.netlify.app/" type="Project" img={werton} github="https://github.com/BintangKurniawan/werlton1" />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              {" "}
-              <Project title="Space Portal Landing Page (Static)" link="https://wbspace.netlify.app/" type="Project" img={wbspace} github="https://github.com/BintangKurniawan/testing-for-mobile" />
-            </div>
             <div className="col-span-12">
               <FeaturedProject
                 title="Website based CV"
@@ -141,6 +144,14 @@ const projects = () => {
                 img={cv}
                 github="https://github.com/BintangKurniawan/cv-web"
               />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              {" "}
+              <Project title="Travel Agency Landing Page (Static)" link="https://weruton-12.netlify.app/" type="Project" img={werton} github="https://github.com/BintangKurniawan/werlton1" />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              {" "}
+              <Project title="Space Portal Landing Page (Static)" link="https://wbspace.netlify.app/" type="Project" img={wbspace} github="https://github.com/BintangKurniawan/testing-for-mobile" />
             </div>
           </div>
         </Layout>
