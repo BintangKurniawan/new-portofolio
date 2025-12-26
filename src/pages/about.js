@@ -2,7 +2,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import React, { useEffect, useRef } from "react";
-import profilePic2 from "../../public/images/profile/pic2.jpeg";
+import profilePic2 from "../../public/images/profile/pic2.jpg";
 import Image from "next/image";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
@@ -49,7 +49,7 @@ const about = () => {
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">Biography</h2>
               <p className="font-medium">
-                Hi, I&apos;m Bintang Kurniawan, a front-end developer with a passion for creating beautiful, functional, and user-centered digital experiences. With 2 years of experience in the field.
+                Hi, I&apos;m Bintang Kurniawan, a front-end developer with a passion for creating beautiful, functional, and user-centered digital experiences. With 3 years of experience in the field.
                 {/* I am always looking for new and
                 innovative ways to bring my clients&apos; visions to life. */}
               </p>
@@ -68,13 +68,13 @@ const about = () => {
             <div className="col-span-2 flex flex-col items-end justify-evenly xl:col-span-8 xl:flex-row xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={6} />
+                  <AnimatedNumbers value={9} />
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">projects completed</h2>
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={2} />
+                  <AnimatedNumbers value={3} />
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">years of experience</h2>
               </div>
