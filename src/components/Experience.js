@@ -62,6 +62,14 @@ const Experience = () => {
             address="Jl. Soekarno Hatta, Bandung"
             work="I'm alone as front-end and my two back-end partners helped them develop their Leave Management System. We completed it in approximately 3 month."
           />
+          <Details
+            position="Staff at Department KOMINFO"
+            company="HIMARPL"
+            companyLink="https://himarpl.org/"
+            time="February - December 2025"
+            address="UPI Kampus Cibiru"
+            work="Staff at organization. This department handles all information media of organization on social media. I was entrusted to handle the web division."
+          />
         </ul>
       </div>
     </div>
