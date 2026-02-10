@@ -70,6 +70,14 @@ const Experience = () => {
             address="UPI Kampus Cibiru"
             work="Staff at organization. This department handles all information media of organization on social media. I was entrusted to handle the web division."
           />
+          <Details
+            position="Head of Department KOMINFO"
+            company="HIMARPL"
+            companyLink="https://himarpl.org/"
+            time="February - December 2026"
+            address="UPI Kampus Cibiru"
+            work="Section head at organization. This department handles all information media of organization on social media. Manage my staff to do design, content, and web development."
+          />
         </ul>
       </div>
     </div>
